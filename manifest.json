@@ -4,6 +4,10 @@
 		{
 			"name": "Test Mod",
 			"repo": "rift-game/example-mod"
+		},
+		{
+			"name": "Test Mod - Duplicate",
+			"repo": "rift-game/example-mod"
 		}
 	]
 }
