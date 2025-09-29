@@ -1,5 +1,5 @@
 {
-	"$schema": "./scheme.json",
+	"$schema": "./schema.json",
 	"manifests": [
 		{
 			"name": "Test Mod",
@@ -7,6 +7,10 @@
 		},
 		{
 			"name": "Test Mod - Duplicate",
+			"repo": "rift-game/example-mod"
+		},
+		{
+			"name": "Test Mod - Two",
 			"repo": "rift-game/example-mod"
 		}
 	]
