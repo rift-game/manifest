@@ -1,17 +1,16 @@
-# manifest/.github/workflows/trigger-mod-site.yml
-name: Trigger mod-site build
+name: Trigger mods-site build
 
 on:
   push:
-    branches: [main] # triggers on push to manifest/main
+    branches: [main]
 
 jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger mod-site workflow
+      - name: Trigger mods-site workflow
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.MOD_SITE_PAT }} # Personal Access Token with repo + workflow scopes
-          repository: rift-game/mod-site # target repo
-          event-type: manifest-updated # custom event type
+          token: ${{ secrets.MOD_SITE_PAT }}
+          repository: rift-game/mods-site
+          event-type: manifest-updated
