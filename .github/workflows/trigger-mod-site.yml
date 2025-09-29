@@ -15,5 +15,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          repository: rift-game/mod-site
+          repository: rift-game/mods-site
           event-type: manifest-updated
