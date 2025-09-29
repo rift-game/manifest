@@ -1,0 +1,1 @@
+make pr and add your mod info to manifest.jsonc

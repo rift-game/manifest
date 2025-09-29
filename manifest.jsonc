@@ -1,0 +1,9 @@
+{
+	"$schema": "./scheme.json",
+	"manifests": [
+		{
+			"name": "Test Mod",
+			"repo": "rift-game/example-mod"
+		}
+	]
+}
