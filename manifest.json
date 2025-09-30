@@ -12,6 +12,10 @@
 		{
 			"name": "Test Mod - Two",
 			"repo": "rift-game/example-mod"
+		},
+		{
+			"name": "Test Mod - Three",
+			"repo": "rift-game/example-mod"
 		}
 	]
 }
